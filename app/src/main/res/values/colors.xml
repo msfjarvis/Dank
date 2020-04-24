@@ -18,20 +18,19 @@
        90% = E6 H
       100% = FF H
   -->
-
-  <color name="color_primary">#202020</color>
-  <color name="color_primary_dark">#1b1b1b</color>
-  <color name="color_accent">@color/teal_A400</color>
-  <color name="color_accent_light">@color/teal_A100</color>
-  <color name="color_accent_dark">@color/teal_A700</color>
-  <color name="window_background">#292929</color>
-  <color name="dialog_background">#393a3c</color>
+  <color name="color_primary">@color/window_background</color>
+  <color name="color_primary_dark">@color/window_background</color>
+  <color name="color_accent">#ffa144</color>
+  <color name="color_accent_light">#ffb633</color>
+  <color name="color_accent_dark">#ff8e54</color>
+  <color name="window_background">#2C2645</color>
+  <color name="dialog_background">@color/window_background</color>
   <color name="dialog_like_activity_window_background">@color/black_opacity_40</color>
 
   <color name="color_accent_opacity_20">#331DE9B6</color>
 
-  <color name="toolbar">@color/gray_900</color>
-  <color name="navigation_bar">@color/gray_950</color>
+  <color name="toolbar">@color/window_background</color>
+  <color name="navigation_bar">@color/window_background</color>
 
   <color name="upvote">@color/deep_orange_300</color>   <!-- Picked from the material palette. Slightly varies from what Reddit uses. -->
   <color name="downvote">#9494FF</color>                <!-- This is what Reddit uses. Couldn't find anything close in the material palette. -->
