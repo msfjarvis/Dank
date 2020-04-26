@@ -24,7 +24,7 @@ class LookAndFeelPreferencesConstructor @Inject constructor(
   override fun construct(c: Context): List<UserPreferencesScreenUiModel> {
     val uiModels = mutableListOf<UserPreferencesScreenUiModel>()
 
-    if (BuildConfig.DEBUG) {
+    if (true) {
       val typefaceResource = typefacePref.get()
 
       uiModels.add(UserPreferenceSectionHeader.UiModel.create("Text"))
