@@ -60,6 +60,16 @@ android {
     }
   }
 
+  flavorDimensions "background"
+  productFlavors {
+    blacked {
+      dimension "background"
+    }
+    standard {
+      dimension "background"
+    }
+  }
+
   buildTypes {
     debug {
       applicationIdSuffix ".debug"
