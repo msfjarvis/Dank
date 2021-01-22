@@ -45,9 +45,7 @@ public class DankApplication extends Application {
     Dank.initDependencies(this);
     RxJavaPlugins.setErrorHandler(undeliveredExceptionsHandler());
 
-    if (BuildConfig.DEBUG) {
-      Timber.plant(new Timber.DebugTree());
-    }
+    Timber.plant(new Timber.DebugTree());
 
     AppUpdateActions.handleDataUpdateIfNeeded(this);
 
