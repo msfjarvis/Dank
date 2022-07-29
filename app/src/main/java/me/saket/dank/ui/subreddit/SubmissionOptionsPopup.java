@@ -149,7 +149,11 @@ public class SubmissionOptionsPopup extends NestedOptionsPopupMenu {
   protected void handleAction(Context c, int actionId) {
     switch (actionId) {
       case ID_SHOW_USER_PROFILE:
-        Toast.makeText(c, R.string.work_in_progress, Toast.LENGTH_SHORT).show();
+        final String author = String.format("u_%s", submission.getAuthor());
+        urlRouter.get()
+            .forLink(RedditSubredditLink.create(author))
+            .expandFromBelowToolbar()
+            .open(c);
         break;
 
       case ID_SHOW_SUBREDDIT:
