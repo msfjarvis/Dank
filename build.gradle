@@ -14,7 +14,7 @@ buildscript {
       okHttp          : '4.10.0',
       retrofit        : '2.9.0',
       rxBindings      : '2.2.0',
-      dagger          : '2.43',
+      dagger          : '2.43.2',
       butterKnife     : '10.2.3',
       commonmark      : '0.10.0',
       flexmark        : '0.64.0',
@@ -23,8 +23,8 @@ buildscript {
       deeplinkDispatch: '6.1.0',
       androidTest     : '1.0.2',
       kotlin          : '1.7.10',
-      room            : '2.4.2',
-      jsoup           : '1.15.2',
+      room            : '2.4.3',
+      jsoup           : '1.15.3',
       rxjava          : '2.2.21',
       markwon         : '2.0.2',
   ]
@@ -35,7 +35,7 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.android.tools.build:gradle:7.2.1' // See ndkVersion in build.gradle (:app) when updating
+    classpath 'com.android.tools.build:gradle:7.2.2' // See ndkVersion in build.gradle (:app) when updating
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
   }
 }
