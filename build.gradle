@@ -22,7 +22,7 @@ buildscript {
       junit           : '4.13.2',
       deeplinkDispatch: '6.1.0',
       androidTest     : '1.0.2',
-      kotlin          : '1.7.10',
+      kotlin          : '1.7.20',
       room            : '2.4.3',
       jsoup           : '1.15.3',
       rxjava          : '2.2.21',
