@@ -5,7 +5,7 @@ buildscript {
       minSdk          : 23,
       compileSdk      : 31,
       supportLib      : '28.0.0',
-      glide           : '4.13.2',
+      glide           : '4.14.2',
       autoValue       : '1.5',
       autoValueMoshi  : '0.4.3',
       moshi           : '1.14.0',
